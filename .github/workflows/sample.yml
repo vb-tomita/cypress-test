@@ -8,5 +8,4 @@ jobs:
   execute:
     runs-on: ubuntu-latest
     steps:
-      - name: echo
-        run: echo 'sampleです'
+      - run: echo 'sampleです'
